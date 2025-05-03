@@ -139,4 +139,3 @@ enviar_whatsapp("✅ Monitoramento do Bitcoin ativo! Você será notificado no W
 while True:
     monitorar_bitcoin()
     countdown()
-```
