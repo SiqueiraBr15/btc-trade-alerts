@@ -5,7 +5,7 @@
 
 """
 
-# ========================= 🌐 IMPORTAÇÕES E CONFIGURAÇÕES =========================
+# === 🌐 IMPORTAÇÕES E CONFIGURAÇÕES ===
 
 import requests  # Requisição de dados
 import pandas as pd  # Manipulação de dados
@@ -15,14 +15,14 @@ import time  # Temporizador
 import datetime  # Para pegar as datas e horários atuais
 from twilio.rest import Client  # Para enviar mensagens via WhatsApp
 
-# ========================== CONFIGURAÇÕES DO USUÁRIO 📲 ==========================
+# === CONFIGURAÇÕES DO USUÁRIO 📲 ===
 # ⚙️ Insira suas credenciais do Twilio abaixo:
 account_sid = 'SUA_ACCOUNT_SID'  # 🔑 Sua SID do Twilio
 auth_token = 'SEU_AUTH_TOKEN'    # 🔑 Seu Auth Token do Twilio
 from_whatsapp_number = 'whatsapp:+14155238886'  # 🚪 Número do Twilio (deve ser o mesmo do seu Sandbox)
 to_whatsapp_number = 'whatsapp:+55SEUNUMEROAQUI'  # 📱 Seu número de WhatsApp com DDD (ex: +5511999999999)
 
-# ==============================================================================
+# =================
 
 # Inicializando o cliente Twilio 💬
 client = Client(account_sid, auth_token)
